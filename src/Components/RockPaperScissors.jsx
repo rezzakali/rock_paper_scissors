@@ -77,14 +77,14 @@ function RockPaperScissors() {
       <div className="row choices">
         <div className="col-sm user-choices">
           <img
-            src={`../images/${userChoice}.png`}
+            src={require(`../../public/images/${userChoice}.png`)}
             alt="user-choices"
             id="image"
           />
         </div>
         <div className="col-sm computer-choices">
           <img
-            src={`../images/${computerChoice}.png`}
+            src={require(`../../public/images/${computerChoice}.png`)}
             alt="computer-choices"
             id="images"
           />
